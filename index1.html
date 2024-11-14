@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tfoot td {
+            font-weight: bold;
+            background-color: #f1f1f1;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Weekly Timetable</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Biology</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>History</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>11:00 AM - 12:00 PM</td>
+            <td>Biology</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>Mathematics</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td>History</td>
+            <td>Biology</td>
+            <td>Mathematics</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">Lunch Break: 1:00 PM - 2:00 PM</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
