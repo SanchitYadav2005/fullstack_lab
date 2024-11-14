@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movies and Cities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+
+        /* Unordered Movie List Styling */
+        ul.movie-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul.movie-list li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #e0f7fa;
+            border-radius: 8px;
+            color: #333;
+        }
+        /* Styling for the favorite movie */
+        ul.movie-list li.favorite {
+            background-color: #ffcc80;
+            color: #333;
+            font-weight: bold;
+            font-style: italic;
+            border-left: 6px solid #ff8f00;
+            padding-left: 15px;
+        }
+
+        /* Ordered City List Styling */
+        ol.city-list {
+            padding: 0;
+        }
+        ol.city-list li {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        /* Unique styling for each city item */
+        ol.city-list li:nth-child(1) {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        ol.city-list li:nth-child(2) {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        ol.city-list li:nth-child(3) {
+            background-color: #e3f2fd;
+            color: #1565c0;
+        }
+        ol.city-list li:nth-child(4) {
+            background-color: #fff3e0;
+            color: #ef6c00;
+        }
+        ol.city-list li:nth-child(5) {
+            background-color: #f3e5f5;
+            color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Favorite Movies</h1>
+<ul class="movie-list">
+    <li>Inception</li>
+    <li>The Matrix</li>
+    <li class="favorite">The Shawshank Redemption</li>
+    <li>Interstellar</li>
+    <li>Parasite</li>
+</ul>
+
+<h2>Cities I Want to Visit</h2>
+<ol class="city-list">
+    <li>Tokyo</li>
+    <li>Paris</li>
+    <li>New York</li>
+    <li>Barcelona</li>
+    <li>Rome</li>
+</ol>
+
+</body>
+</html>
